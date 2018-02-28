@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "comple-x-form-client-side-solution",
+    "id": "c77eb9be-4d0a-48d3-9e00-35b0d5c8fec8",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/comple-x-form.sppkg"
+  }
+}

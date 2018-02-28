@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "webpart-complex-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/webpartComplexForm/WebpartComplexFormWebPart.js",
+          "manifest": "./src/webparts/webpartComplexForm/WebpartComplexFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WebpartComplexFormWebPartStrings": "lib/webparts/webpartComplexForm/loc/{locale}.js"
+  }
+}
